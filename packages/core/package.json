@@ -1,0 +1,10 @@
+{
+  "name": "@poq/core",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Pure game rules shared by the API, the web app and the Discord bot.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

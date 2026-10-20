@@ -1,0 +1,17 @@
+{
+  "name": "@poq/server",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny Hono API over SQLite (node:sqlite). Shared by the web app and the Discord bot.",
+  "scripts": {
+    "dev": "tsx watch --clear-screen=false src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.0",
+    "@poq/core": "*",
+    "@poq/sprites": "*",
+    "hono": "^4.13.0"
+  }
+}

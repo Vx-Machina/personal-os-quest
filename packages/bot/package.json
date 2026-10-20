@@ -1,0 +1,14 @@
+{
+  "name": "@poq/bot",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "discord.js bot. Talks to the same API (and so the same SQLite DB) as the web app.",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@poq/core": "*",
+    "discord.js": "^14.22.0"
+  }
+}

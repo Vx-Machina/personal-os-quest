@@ -1,0 +1,11 @@
+{
+  "name": "@poq/sprites",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Pixel-art definitions (16x16 palette grids), compositing and a tiny PNG encoder.",
+  "exports": {
+    ".": "./src/index.ts",
+    "./png": "./src/png.ts"
+  }
+}
