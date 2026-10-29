@@ -2,6 +2,7 @@
   "name": "personal-os-quest",
   "version": "0.2.0",
   "private": true,
+  "license": "UNLICENSED",
   "description": "A small Habitica-style RPG for personal development. Web + Discord, one shared core, SQLite.",
   "type": "module",
   "workspaces": [
